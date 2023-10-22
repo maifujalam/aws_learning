@@ -1,2 +1,2 @@
-region = "us-east-2"
-bucket_name = "bucket-1"
+region = "ap-south-1"
+bucket_name = "sample"

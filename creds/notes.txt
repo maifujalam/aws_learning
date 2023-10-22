@@ -1,6 +1,6 @@
 1. Create aws access key: IAM->Users-><username>->Access Keys .
 2. configure aws credentials:
-    a. cws configure
+    a. aws configure
     b. provide access key and secret key.
     c. select region
 3. cred file can be found at ~/.aws/credentials
