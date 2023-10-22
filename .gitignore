@@ -1,2 +1,15 @@
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+**/secrets.tfvars
 .idea
-**creds
+venv
+*.terraform
+*/rootkey.csv
+**/rootkey.csv
+**/settings.yaml
+*/service-accounts
+**/*.lock.hcl
+**config
+**.crt
+**.key
