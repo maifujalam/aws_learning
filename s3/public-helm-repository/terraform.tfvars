@@ -1,2 +1,2 @@
 region = "ap-south-1"
-bucket_name = "sample"
+bucket_name = "public-helm-repository"
