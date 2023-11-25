@@ -1,4 +1,0 @@
-provider "tls" {
-}
-provider "local" {
-}

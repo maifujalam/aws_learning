@@ -8,7 +8,7 @@ terraform {
   required_version = ">= 1.6.1"
   backend "s3" {
     bucket = "terraform-backend-alam"
-    key    = "terraform-state/"   # Hare our state files get stored for this object.
+    key    = "terraform-state/SelfSignedCert/maifuj.com"
     region = "ap-south-1"
   }
 }

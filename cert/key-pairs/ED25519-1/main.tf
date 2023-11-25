@@ -1,5 +1,5 @@
 module "key-pair" {
-  source = "../../modules/key-pair"
+  source = "../../../modules/tls_provider/key-pair"
 }
 resource "local_file" "public_key" {
   content  = module.key-pair.public-key

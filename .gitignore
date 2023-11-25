@@ -12,5 +12,4 @@ venv
 **/*.lock.hcl
 **config
 **.crt
-**.key
-**key
+**secrets
