@@ -1,10 +1,11 @@
 resource "aws_launch_template" "launch_template" {
-  name = "launch_template_k8s_worker"
+  name = var.name
   block_device_mappings {
-    device_name = "/dev/sda"
+    device_name = var.block_device_name
     ebs {
-      volume_size = 20
+      volume_size = var.block_device_size
+      volume_type = var.volume_type
+      delete_on_termination = var.delete_on_termination
     }
   }
-
 }
