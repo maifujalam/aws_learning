@@ -16,3 +16,6 @@ variable "delete_on_termination" {
 variable "volume_type" {
   default = "gp3"
 }
+variable "instance_type" {
+  default = "t2.micro"
+}
