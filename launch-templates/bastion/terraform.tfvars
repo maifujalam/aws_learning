@@ -1,7 +1,5 @@
-region = "ap-south-1"
-name = "bastion"
-block_device_name = "/dev/sda1"
-block_device_size = 20
+region                = "ap-south-1"
+name                  = "bastion"
 delete_on_termination = "true"
-volume_type = "gp3"
-instance_type="t2.micro"
+instance_type         = "t2.micro"
+os                    = "ubuntu-2404"

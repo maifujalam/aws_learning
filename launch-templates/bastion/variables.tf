@@ -19,3 +19,7 @@ variable "volume_type" {
 variable "instance_type" {
   default = "t2.micro"
 }
+variable "os" {
+  default     = "ubuntu-2404"
+  description = "It can be one of ubuntu-2404,ubuntu-2204,rhel9"
+}
