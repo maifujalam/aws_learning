@@ -1,4 +1,3 @@
-
 resource "aws_launch_template" "launch_template" {
   name = var.name
 #  block_device_mappings {
@@ -10,7 +9,7 @@ resource "aws_launch_template" "launch_template" {
 #    }
 #  }
   instance_type = var.instance_type
-  image_id = "ami-04708942c263d8190 "
+  image_id = data.aws_ami.ubuntu-2204.image_id
   key_name = "default"
   network_interfaces {
     associate_public_ip_address = true
