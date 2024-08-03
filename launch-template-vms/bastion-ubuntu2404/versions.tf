@@ -8,7 +8,7 @@ terraform {
   required_version = ">= 1.6.1"
   backend "s3" {
     bucket = "terraform-backend-alam"
-    key    = "terraform-state/"   # Hare our state files get stored for this object.
+    key    = "terraform-state/launch-template-vms/bastion-ubuntu2404"   # Hare our state files get stored for this object.
     region = "ap-south-1"
   }
 }
