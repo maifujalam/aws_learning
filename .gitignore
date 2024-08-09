@@ -13,3 +13,4 @@ venv
 **config
 **.crt
 **secrets
+venv
