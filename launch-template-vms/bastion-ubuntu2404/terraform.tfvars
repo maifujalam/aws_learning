@@ -1,2 +1,3 @@
 region = "ap-south-1"
-instance_name = "my-vm"
+instance_name = "ubuntu-vm"
+launch_template = "bastion-ubuntu"

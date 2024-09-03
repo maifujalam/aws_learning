@@ -1,5 +1,5 @@
 resource "aws_launch_template" "launch_template" {
-  name = "${var.name}-${var.os}"
+  name = var.name
 #   block_device_mappings {
 #     device_name = var.block_device_name
 #     ebs {

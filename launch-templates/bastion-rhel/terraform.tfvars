@@ -1,5 +1,5 @@
 region                = "ap-south-1"
-name                  = "bastion"
+name                  = "bastion-rhel"
 delete_on_termination = "true"
 instance_type         = "t2.micro"
-os                    = "ubuntu-2404"
+os                    = "rhel9"
