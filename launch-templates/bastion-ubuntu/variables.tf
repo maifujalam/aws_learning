@@ -1,6 +1,9 @@
 variable "region" {
   description = "Region"
 }
+variable "key_name" {
+  default = "deault_rsa"
+}
 variable "name" {
   default = "default-launch-template"
 }

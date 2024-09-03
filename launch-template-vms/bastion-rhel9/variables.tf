@@ -7,3 +7,6 @@ variable "instance_name" {
 variable "launch_template" {
   default = "bastion-rhel"
 }
+variable "instance_type" {
+  default = "t2.micro"
+}

@@ -1,6 +1,10 @@
 variable "region" {
   description = "Region"
 }
+variable "owner" {
+  default = "skalam"
+}
+
 variable "name" {
   default = "default-launch-template"
 }
@@ -20,6 +24,9 @@ variable "instance_type" {
   default = "t2.micro"
 }
 variable "os" {
-  default = "ubuntu-2404"
+  default     = "ubuntu-2404"
   description = "It can be one of ubuntu-2404,ubuntu-2204,rhel9"
+}
+variable "key_name" {
+  default = "default_rsa"
 }

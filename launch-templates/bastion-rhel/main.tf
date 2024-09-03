@@ -4,4 +4,5 @@ module "launch-template-bastion" {
   region        = var.region
   instance_type = var.instance_type
   os            = var.os
+  key_name      = var.key_name
 }
