@@ -1,4 +1,3 @@
-
 module "bastion-rhel9" {
   source = "../../modules/launch-template-vm"
   region = var.region
