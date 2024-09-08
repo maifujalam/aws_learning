@@ -24,3 +24,12 @@ variable "root_volume_size" {
   description = "Size of root volume"
   default = 10
 }
+variable "spot_instance" {
+  default = false
+}
+variable "subnet_name" {
+  default = "subnet-1"
+}
+variable "vpc_name" {
+  default = "default"
+}

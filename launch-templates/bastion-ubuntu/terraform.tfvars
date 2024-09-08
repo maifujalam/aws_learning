@@ -1,6 +1,0 @@
-region                = "ap-south-1"
-name                  = "bastion-ubuntu"
-delete_on_termination = "true"
-instance_type         = "t2.micro"
-os                    = "rhel"
-key_name              = "default_rsa"

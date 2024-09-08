@@ -1,8 +1,5 @@
-resource "resource_type" "resource_type" {
-  tags = {
-    Owner      = var.owner
-    createdBy  = "terraform"
-    ModulePath = path.modue
-    CWD        = path.cwd
-  }
+module "moddule_type" {
+  source = ""
+  region = var.region
+  owner = var.owner
 }

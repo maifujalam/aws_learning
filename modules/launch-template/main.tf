@@ -15,8 +15,9 @@ resource "aws_launch_template" "launch_template" {
     associate_public_ip_address = true
   }
   tags = {
+    Name    = var.name
     Owner      = var.owner
-    createdBy  = "terraform"
+    CreatedBy  = "terraform"
     ModulePath = path.module
     CWD        = path.cwd
   }

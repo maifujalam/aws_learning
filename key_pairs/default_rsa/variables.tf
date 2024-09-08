@@ -7,3 +7,7 @@ variable "key_name" {
 variable "public_key" {
   default =  "~/.ssh/id_rsa.pub"
 }
+variable "owner" {
+  default = "alam2"
+}
+

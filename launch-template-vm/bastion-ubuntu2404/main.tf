@@ -3,4 +3,5 @@ module "bastion-ubuntu2404" {
   region = var.region
   instance_name = var.instance_name
   launch_template = var.launch_template
+  root_volume_size = var.root_volume_size
 }

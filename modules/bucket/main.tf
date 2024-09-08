@@ -1,6 +1,9 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket_prefix = "${var.bucket_name}-"
+  bucket = "${var.bucket_name}-${var.owner}"
   tags = {
-    Name        = var.bucket_name
+    owner      = var.owner
+    createdBy  = "terraform"
+    modulePath = path.module
+    CWD        = path.cwd
   }
 }

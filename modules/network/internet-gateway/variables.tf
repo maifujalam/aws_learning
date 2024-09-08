@@ -7,3 +7,6 @@ variable "vpc_name" {
 variable "internet_gateway_name" {
   description = "Internet Gateway Name"
 }
+variable "owner" {
+  default = "skalam"
+}

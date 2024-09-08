@@ -7,3 +7,6 @@ variable "instance_name" {
 variable "launch_template" {
   default = "bastion-ubuntu"
 }
+variable "root_volume_size" {
+  description = "Size of root volume"
+}
