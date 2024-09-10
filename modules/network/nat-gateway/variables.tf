@@ -9,4 +9,5 @@ variable "owner" {
 }
 variable "eip" {
   description = "Default EIP ID"
+  default = "default-elasic-ip"
 }

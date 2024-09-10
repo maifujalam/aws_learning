@@ -4,7 +4,6 @@ resource "aws_eip" "eip" {
     Owner = var.owner
     path  = path.cwd
   }
-  vpc  = true
 }
 resource "aws_nat_gateway" "nat" {
   subnet_id     = data.aws_subnet.get_subnet.id
