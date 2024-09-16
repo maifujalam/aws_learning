@@ -7,3 +7,4 @@ root_volume_size = 10
 vpc_name = "default"
 subnet_name = "subnet-1"
 spot_instance = true
+instance_type = "t3a.medium"

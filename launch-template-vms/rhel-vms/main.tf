@@ -1,4 +1,4 @@
-module "ubuntu-vms" {
+module "rhel-vms" {
   source = "../../modules/launch-template-vm"
   region = var.region
   instance_name = var.instance_name
@@ -6,5 +6,7 @@ module "ubuntu-vms" {
   enable_public_ip = var.enable_public_ip
   launch_template = var.launch_template
   root_volume_size = var.root_volume_size
+  instance_type = var.instance_type
+
 }
 

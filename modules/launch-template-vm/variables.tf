@@ -32,3 +32,6 @@ variable "subnet_name" {
 variable "vpc_name" {
   default = "default"
 }
+variable "project" {
+  default = "default-project"
+}
